@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenses Gallery</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        header p {
+            opacity: 0.8;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #ff9800;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            color: #333;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card .info {
+            padding: 15px;
+        }
+
+        .card h3 {
+            margin: 0 0 8px;
+        }
+
+        .card p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 0.8rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>📷 Lenses Gallery</h1>
+    <p>Mobile-friendly gallery with modern design</p>
+    <a href="#gallery" class="btn">View Gallery</a>
+</header>
+
+<section id="gallery" class="gallery">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1519183071298-a2962be96c11" alt="Camera Lens">
+        <div class="info">
+            <h3>Camera Lens</h3>
+            <p>Professional DSLR lens</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f" alt="Photography">
+        <div class="info">
+            <h3>Photography</h3>
+            <p>Creative photography setup</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32" alt="Zoom Lens">
+        <div class="info">
+            <h3>Zoom Lens</h3>
+            <p>Perfect for long shots</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Macro Lens">
+        <div class="info">
+            <h3>Macro Lens</h3>
+            <p>Extreme close-up details</p>
+        </div>
+    </div>
+
+</section>
+
+<footer>
+    © 2025 Lenses Gallery | Responsive HTML Design
+</footer>
+
+</body>
+</html>
