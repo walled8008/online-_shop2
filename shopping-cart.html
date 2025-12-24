@@ -24,7 +24,8 @@
     <link rel="icon" href="img/camera-logo-16.png" type="image/png" />
     <title>best photo shot</title>
   </head>
-  <body onload="displayProdCart(), displayProdIndex()">
+ <body onload="displayCart(); displayProdIndex();">
+
     <!-- Navbar -->
     <nav class="nav-container">
       <!-- Website nav-menu -->
@@ -82,8 +83,8 @@
             <i class="fa-solid fa-heart"></i>
             <i class="fa-solid fa-user"></i>
             <a href="shopping-cart.html"
-              ><i class="fa-solid fa-cart-shopping" value=2></i
-            ></a>
+              ><i class="fa-solid fa-cart-shopping"></i>
+</a>
           </span>
         </div>
       </header>
@@ -110,13 +111,18 @@
               <i class="fa-solid fa-chevron-down"></i>
             </div>
             <div class="order-summary-row">
-              <p>Total</p>
-              <p>$898</p>
+              <p id="cart-subtotal">$0</p>
+...
+<p id="cart-total">$0</p>
+
             </div>
             <div class="order-summary-column" id="buttons-column">
-              <button class="order-summary-button">CHECKOUT</button>
+              <button class="order-summary-button" onclick="checkout()">CHECKOUT</button>
               <button class="order-summary-button" id="paypal"></button>
-              <button class="order-summary-button" id="klarna"></button>
+              <button onclick="window.location.href='index.html'">
+  Continue Shopping
+</button>
+
             </div>
           </div>
         </div>
@@ -124,7 +130,8 @@
       <!-- Products section -->
       <section class="products-section">
         <h1 class="title">TRENDING NOW</h1>
-        <div class="products-container" id="prod-index"></div>
+        <div class="cart-prod-container" id="cart-items"></div>
+
       </section>
       <!-- Categories icons section -->
       <section class="icons-section">
