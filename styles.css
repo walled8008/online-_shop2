@@ -94,7 +94,9 @@ button:hover{
   flex-direction:column;
   justify-content:center;
   margin:1rem auto;
-   color: blue;
+   .hero-section {
+  color: blue !important;
+}
 }
 
 /* ===============================
