@@ -17,16 +17,20 @@ main{
   background-color:#000;
 }
 
-button{
-  background-color:blue;
-  color:#030303;
-  padding:1rem;
-  font-weight:bold;
-  font-size:1rem;
-  transition-duration:.4s;
-  cursor:pointer;
-  border:2px solid #00e5b0;
+button {
+  background-color: blue;
+  color: #030303;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+  transition-duration: .4s;
+  cursor: pointer;
+  border: 2px solid #00e5b0;
+
+  margin-top: 20px;
+  margin-left: 50px;
 }
+
 
 button:hover{
   background-color:#000;
