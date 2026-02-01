@@ -44,7 +44,7 @@ button:hover{
   position:sticky;
   top:0;
   z-index:1;
-  background-color:#000;
+  background-color:#f70d0d;
 }
 
 .nav-web{
@@ -86,7 +86,7 @@ button:hover{
 
 .search{
   background-color:transparent;
-  border:2px solid #00e5b0;
+  border:20px solid #00e5b0;
 }
 
 /* ===============================
@@ -99,7 +99,7 @@ button:hover{
   justify-content:center;
   margin:1rem auto;
    .hero-section {
-  color: blue !important;
+  color: rgb(123, 255, 0) !important;
 }
 }
 
