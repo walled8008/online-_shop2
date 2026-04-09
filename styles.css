@@ -1,3 +1,4 @@
+
 *{margin:0;padding:0;border:0;outline:0}
 
 /* ===============================
@@ -84,9 +85,11 @@ button:hover{
   background-color:#000;
 }
 
-.search{
-  background-color:transparent;
-  border:20px solid #e50000;
+/* Add this to your search input style: */
+.search-input {
+  border: none;
+  outline: none;
+};
 }
 
 /* ===============================
