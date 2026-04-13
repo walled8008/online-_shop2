@@ -113,13 +113,18 @@ button:hover{
   background-color:#000;
   width:100%;
   padding:1rem .5rem;
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
 }
 
 .products-container{
   display:flex;
+  flex-direction:row;
   justify-content:space-around;
   flex-wrap:nowrap;
   width:100%;
+  align-items:flex-end;
 }
 
 .img-products{
