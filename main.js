@@ -45,8 +45,7 @@ function displayProdIndex() {
 
   products.forEach((product) => {
     const card = document.createElement("div");
-    card.className = "product-card";
-
+card.className = "img-products";
     card.innerHTML = `
       <img src="${product.img}" alt="${product.name}">
       <h3>${product.name}</h3>
