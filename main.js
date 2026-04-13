@@ -16,21 +16,9 @@ function displayProdIndex() {
     { name: "Nikon Z6 II", price: "$1,999", img: "img/camera3.jpg" },
     { name: "DJI Mini Drone", price: "$599", img: "img/drone.jpg" },
   ];
-
-  container.style.display = "flex";
-  container.style.flexDirection = "row";
-  container.style.justifyContent = "space-around";
-  container.style.alignItems = "flex-end";
-  container.style.width = "100%";
-  container.style.gap = "1rem";
-
   container.innerHTML = "";
   products.forEach((product) => {
     const card = document.createElement("div");
-    card.style.display = "flex";
-    card.style.flexDirection = "column";
-    card.style.alignItems = "center";
-    card.style.flex = "1";
     card.innerHTML = `
       <img src="${product.img}" alt="${product.name}" style="width:100%">
       <h3 style="color:#fff; margin:.5rem 0;">${product.name}</h3>
