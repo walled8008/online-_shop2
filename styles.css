@@ -119,6 +119,7 @@ button:hover{
   display:flex;
   justify-content:space-around;
   flex-wrap:nowrap;
+  width:100%;
 }
 
 .img-products{
@@ -207,7 +208,6 @@ footer{
   align-items: flex-end;
   justify-content: space-around;
   flex-wrap: nowrap;
-   width: 100%;
 }
 .product-card {
   display: flex;
