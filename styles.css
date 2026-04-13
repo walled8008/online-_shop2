@@ -206,7 +206,8 @@ footer{
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-around;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+   width: 100%;
 }
 .product-card {
   display: flex;
