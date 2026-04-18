@@ -184,3 +184,56 @@ footer{
     flex-wrap:wrap !important;
   }
 }
+/* Hero overlay fix */
+.hero-image {
+  position: relative;
+  width: 100%;
+}
+.hero-image img {
+  width: 100%;
+  display: block;
+}
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hero-content {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.hero-title {
+  background: white;
+  color: black;
+  padding: 5px 15px;
+  display: inline-block;
+}
+.hero-btn {
+  background-color: #00e5b0;
+  color: #000;
+  border: none;
+  padding: 12px 40px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 0;
+  display: block;
+  cursor: pointer;
+}
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: #00e5b0;
+  color: black;
+  border-radius: 50%;
+  font-size: 10px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
